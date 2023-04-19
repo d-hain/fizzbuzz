@@ -1,6 +1,8 @@
 use anyhow::Result;
 
 fn main() -> Result<()> {
+    println!("FizzBuzz written in Rust.\n");
+
     loop {
         println!("Which version do you want to run?");
         println!("\t(1) simple");
