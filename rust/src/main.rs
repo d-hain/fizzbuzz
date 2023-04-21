@@ -28,6 +28,7 @@ fn main() -> Result<()> {
 fn simple() {
     for number in 1..=100 {
         let mut output = String::new();
+        
         if number % 3 == 0 {
             output.push_str("Fizz");
         }
