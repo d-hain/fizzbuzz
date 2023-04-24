@@ -18,3 +18,4 @@ For some more explanation or history about the game visit [Wikipedia](https://en
 - [Java](/java)
 - [Perl](/perl)
 - [C](/c)
+- [Lua](/lua)
