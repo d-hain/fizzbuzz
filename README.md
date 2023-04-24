@@ -13,3 +13,7 @@ For some more explanation or history about the game visit [Wikipedia](https://en
 
 - [Rust](/rust)
 - [Go](/go)
+- [Python](/python)
+- [PHP](/php)
+- [Java](/java)
+- [Perl](/perl)
