@@ -19,3 +19,4 @@ For some more explanation or history about the game visit [Wikipedia](https://en
 - [Perl](/perl)
 - [C](/c)
 - [Lua](/lua)
+- [C++](/cpp)
