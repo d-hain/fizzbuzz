@@ -1,21 +1,21 @@
-#include <stdio.h>
-#include <string.h>
+#include <iostream>
+#include <string>
 
 int main() {
   for (int number = 0; number <= 100; number++) {
-    char output[9] = ""; // Size 9 because of the string terminator \0
+    std::string output;
 
     if (number % 3 == 0) {
-      strcat(output, "Fizz");
+      output += "Fizz";
     }
     if (number % 5 == 0) {
-      strcat(output, "Buzz");
+      output += "Buzz";
     }
-    if (strlen(output) == 0) {
-      sprintf(output, "%d", number);
+    if (output.length() == 0) {
+      output += std::to_string(number);
     }
 
-    printf("%s\n", output);
+    std::cout << output << '\n';
   }
 
   return 0;
